@@ -13,12 +13,12 @@ public class Intervalos {
     public static void main(String[] args) {
         
         int a = 0;
-        String rango = Intervalos.ObtenerCategoria(a);
+        String rango = Intervalos.ObtenerIntervalo(a);
         System.out.println("El número "+a+ "esta en el "+rango);
         
     }
     
-    public static String ObtenerCategoria(int a){
+    public static String ObtenerIntervalo(com.sun.org.apache.xpath.internal.operations.String a){
        if (a < -4 ){
            final String A = "Intervalo A";
            return A;
