@@ -18,7 +18,7 @@ public class Intervalos {
         
     }
     
-    public static String ObtenerIntervalo(com.sun.org.apache.xpath.internal.operations.String a){
+    public static String ObtenerIntervalo(int  a){
        if (a < -4 ){
            final String A = "Intervalo A";
            return A;
